@@ -47,4 +47,22 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="forecast_fragment">Forecast fragment</string>
+    <string name="Mon" />
+    <string name="weather_icon" />
+    <string name="partly_cloudy" />
+    <string name="Tue" />
+    <string name="showers_n24c_31c" />
+    <string name="Wed" />
+    <string name="rain_n22c_23c" />
+    <string name="Thu" />
+    <string name="scattered_showers_n22c_27c" />
+    <string name="Fri" />
+    <string name="mostly_cloudy_n22c_30c" />
+    <string name="Sat" />
+    <string name="partly_cloudy_n24c_31c" />
+    <string name="Sun" />
+    <string name="thunderstorms_n25c_28c" />
+    <string name="scattered_thunderstorms_n24c_27c" />
+    <string name="showers_n24c_26c" />
+    <string name="scattered_thunderstorms_n23c_27c" />
 </resources>
