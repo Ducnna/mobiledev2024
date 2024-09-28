@@ -20,4 +20,6 @@
         android:id="@+id/forecastFragment"
         android:name="vn.edu.usth.weather.ForecastFragment" />
 
+
+
 </LinearLayout>

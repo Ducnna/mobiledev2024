@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="weather_icon_size">150dp</dimen>
+    <dimen name="default_padding">16dp</dimen>
+    <dimen name="weather_status_text_size">20sp</dimen>
+    <dimen name="city_name_text_size">20sp</dimen>
+    <dimen name="forecast_padding">30dp</dimen>
+    <dimen name="day_text_size">18sp</dimen>
+    <dimen name="day_padding_start">16dp</dimen>
+    <dimen name="forecast_text_size">16sp</dimen>
+</resources>

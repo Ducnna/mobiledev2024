@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Dự báo thời tiết USTH</string>
+
+    <string name="mon">Thứ Hai</string>
+    <string name="tue">Thứ Ba</string>
+    <string name="wed">Thứ Tư</string>
+    <string name="thu">Thứ Năm</string>
+    <string name="fri">Thứ Sáu</string>
+    <string name="sat">Thứ Bảy</string>
+    <string name="sun">Chủ Nhật</string>
+
+    <string name="partly_cloudy">Có mây</string>
+    <string name="showers">Mưa rào</string>
+    <string name="rain">Mưa</string>
+    <string name="scattered_showers">Mưa rải rác</string>
+    <string name="mostly_cloudy">Nhiều mây</string>
+    <string name="thunderstorms">Dông</string>
+    <string name="scattered_thunderstorms">Dông rải rác</string>
+
+    <string name="partly_cloudy_temp_range_mon">Có mây 24C - 31C</string>
+    <string name="showers_temp_range_tue">Mưa rào 24C - 30C</string>
+    <string name="rain_temp_range_wed">Mưa 22C - 23C</string>
+    <string name="scattered_showers_temp_range_thu">Mưa rải rác 22C - 27C</string>
+    <string name="mostly_cloudy_temp_range_fri">Nhiều mây 22C - 30C</string>
+    <string name="partly_cloudy_temp_range_sat">Có mây 24C - 31C</string>
+    <string name="scattered_thunderstorms_temp_range_sun">Dông rải rác 25C - 28C</string>
+</resources>

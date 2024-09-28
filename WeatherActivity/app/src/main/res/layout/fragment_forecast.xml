@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="30dp"
-    android:background="#FFBBDEFB"> <!-- Light blue background -->
+    android:padding="@dimen/forecast_padding"
+    android:background="@color/forecast_background">
 
     <!-- Monday's forecast -->
     <LinearLayout
@@ -21,17 +20,17 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mon"
-            android:textSize="18sp"
-            android:paddingStart="16dp"
+            android:text="@string/mon"
+            android:textSize="@dimen/day_text_size"
+            android:paddingStart="@dimen/day_padding_start"
             android:layout_gravity="center_vertical" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Partly Cloudy 24C - 31C"
-            android:textSize="16sp"
-            android:paddingStart="16dp"
+            android:text="@string/partly_cloudy_temp_range_mon"
+            android:textSize="@dimen/forecast_text_size"
+            android:paddingStart="@dimen/day_padding_start"
             android:layout_gravity="center_vertical" />
     </LinearLayout>
 
@@ -50,17 +49,17 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tue"
-            android:textSize="18sp"
-            android:paddingStart="16dp"
+            android:text="@string/tue"
+            android:textSize="@dimen/day_text_size"
+            android:paddingStart="@dimen/day_padding_start"
             android:layout_gravity="center_vertical" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Showers 24C - 30C"
-            android:textSize="16sp"
-            android:paddingStart="16dp"
+            android:text="@string/showers_temp_range_tue"
+            android:textSize="@dimen/forecast_text_size"
+            android:paddingStart="@dimen/day_padding_start"
             android:layout_gravity="center_vertical" />
     </LinearLayout>
 
@@ -79,17 +78,17 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Wed"
-            android:textSize="18sp"
-            android:paddingStart="16dp"
+            android:text="@string/wed"
+            android:textSize="@dimen/day_text_size"
+            android:paddingStart="@dimen/day_padding_start"
             android:layout_gravity="center_vertical" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rain 22C - 23C"
-            android:textSize="16sp"
-            android:paddingStart="16dp"
+            android:text="@string/rain_temp_range_wed"
+            android:textSize="@dimen/forecast_text_size"
+            android:paddingStart="@dimen/day_padding_start"
             android:layout_gravity="center_vertical" />
     </LinearLayout>
 
@@ -108,17 +107,17 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Thu"
-            android:textSize="18sp"
-            android:paddingStart="16dp"
+            android:text="@string/thu"
+            android:textSize="@dimen/day_text_size"
+            android:paddingStart="@dimen/day_padding_start"
             android:layout_gravity="center_vertical" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Scattered Showers 22C - 27C"
-            android:textSize="16sp"
-            android:paddingStart="16dp"
+            android:text="@string/scattered_showers_temp_range_thu"
+            android:textSize="@dimen/forecast_text_size"
+            android:paddingStart="@dimen/day_padding_start"
             android:layout_gravity="center_vertical" />
     </LinearLayout>
 
@@ -137,17 +136,17 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Fri"
-            android:textSize="18sp"
-            android:paddingStart="16dp"
+            android:text="@string/fri"
+            android:textSize="@dimen/day_text_size"
+            android:paddingStart="@dimen/day_padding_start"
             android:layout_gravity="center_vertical" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mostly Cloudy 22C - 30C"
-            android:textSize="16sp"
-            android:paddingStart="16dp"
+            android:text="@string/mostly_cloudy_temp_range_fri"
+            android:textSize="@dimen/forecast_text_size"
+            android:paddingStart="@dimen/day_padding_start"
             android:layout_gravity="center_vertical" />
     </LinearLayout>
 
@@ -166,17 +165,17 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sat"
-            android:textSize="18sp"
-            android:paddingStart="16dp"
+            android:text="@string/sat"
+            android:textSize="@dimen/day_text_size"
+            android:paddingStart="@dimen/day_padding_start"
             android:layout_gravity="center_vertical" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Partly Cloudy 24C - 31C"
-            android:textSize="16sp"
-            android:paddingStart="16dp"
+            android:text="@string/partly_cloudy_temp_range_sat"
+            android:textSize="@dimen/forecast_text_size"
+            android:paddingStart="@dimen/day_padding_start"
             android:layout_gravity="center_vertical" />
     </LinearLayout>
 
@@ -190,24 +189,23 @@
         <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:contentDescription="SundayWeather"
-            android:src="@drawable/thunderstorm" />
+            android:src="@drawable/thunderstorm"
+            android:contentDescription="SundayWeather" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sun"
+            android:textSize="@dimen/day_text_size"
+            android:paddingStart="@dimen/day_padding_start"
+            android:layout_gravity="center_vertical" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:paddingStart="16dp"
-            android:text="Sun"
-            android:textSize="18sp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:paddingStart="16dp"
-            android:text="Scattered Thunderstorm 24C-27C"
-            android:textSize="16sp" />
+            android:text="@string/scattered_thunderstorms_temp_range_sun"
+            android:textSize="@dimen/forecast_text_size"
+            android:paddingStart="@dimen/day_padding_start"
+            android:layout_gravity="center_vertical" />
     </LinearLayout>
 
 </LinearLayout>
